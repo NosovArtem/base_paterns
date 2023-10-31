@@ -1,0 +1,8 @@
+package com.nsv.soft.dev.lab.base.patterns.structural.composite;
+
+public class CppDeveloper implements Developer{
+    @Override
+    public void writeCode() {
+        System.out.println("CppDeveloper");
+    }
+}
