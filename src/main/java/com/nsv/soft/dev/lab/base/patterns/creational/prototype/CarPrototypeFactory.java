@@ -1,9 +1,9 @@
 package com.nsv.soft.dev.lab.base.patterns.creational.prototype;
 
-public class CarFactory {
+public class CarPrototypeFactory {
     Car car;
 
-    public CarFactory(Car car) {
+    public CarPrototypeFactory(Car car) {
         this.car = car;
     }
 

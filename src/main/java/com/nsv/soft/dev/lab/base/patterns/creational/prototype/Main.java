@@ -9,9 +9,9 @@ public class Main {
 
         System.out.print("\n");
 
-        CarFactory carFactory = new CarFactory(car);
+        CarPrototypeFactory carPrototypeFactory = new CarPrototypeFactory(car);
 
-        Car carClone = carFactory.createCarByPrototype();
+        Car carClone = carPrototypeFactory.createCarByPrototype();
 
         System.out.println(carClone);
         System.out.println(carClone.hashCode());
