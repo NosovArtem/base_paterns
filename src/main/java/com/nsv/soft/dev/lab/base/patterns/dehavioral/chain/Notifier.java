@@ -9,12 +9,12 @@ public abstract class Notifier {
         this.notifier = notifier;
     }
 
-    public void notifyManager(String message, Priority priorityLevel){
+    public void notifyManager(String message, Priority priorityLevel) {
         if (priorityLevel.getPriority() >= priority.getPriority()) {
             write(message);
-        }
-        if (notifier != null) {
-            notifier.notifyManager(message, priorityLevel);
+            if (notifier != null) {
+                notifier.notifyManager(message, priorityLevel);
+            }
         }
     }
 

@@ -12,8 +12,8 @@ public class BugTracker {
 
 
 //        notifier.notifyManager("Everything is ok", Priority.INFO);
-//        notifier.notifyManager("Need conversation", Priority.WARN);
-        notifier.notifyManager("Production was dropped", Priority.ASAP);
+        notifier.notifyManager("Need conversation", Priority.WARN);
+//        notifier.notifyManager("Production was dropped", Priority.ASAP);
 
     }
 }
